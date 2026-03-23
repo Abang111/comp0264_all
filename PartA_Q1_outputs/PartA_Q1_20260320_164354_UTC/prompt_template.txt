@@ -1,0 +1,4 @@
+Prompt template used for PartA_Q1 baseline inference:
+- System role: instructs the model to answer accurately, concisely, and factually
+- User role: provides the question in the format 'Question: <text>'
+- Chat template: tokenizer.apply_chat_template(..., add_generation_prompt=True)

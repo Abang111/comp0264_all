@@ -1,0 +1,32 @@
+[
+  {
+    "example_id": 1,
+    "task_type": "yoda",
+    "gold_answer": "A Jedi uses the Force for knowledge and defense.",
+    "response": "For knowledge and defense, the Force a Jedi uses.",
+    "correctness_reward": 0.9605216979980469,
+    "format_reward": 1.0,
+    "style_reward": 0.9776971340179443,
+    "total_reward": 0.9752875328063965
+  },
+  {
+    "example_id": 2,
+    "task_type": "yoda",
+    "gold_answer": "A Jedi uses the Force for knowledge and defense.",
+    "response": "A Jedi uses the Force for knowledge and defense.",
+    "correctness_reward": 0.9999998807907104,
+    "format_reward": 1.0,
+    "style_reward": 0.0,
+    "total_reward": 0.5999999523162842
+  },
+  {
+    "example_id": 3,
+    "task_type": "yoda",
+    "gold_answer": "A Jedi uses the Force for knowledge and defense.",
+    "response": "The turning radius or turning circle of a vehicle, the radius of the smallest circular turn that the vehicle is capable of making, is.",
+    "correctness_reward": 0.09834340214729309,
+    "format_reward": 1.0,
+    "style_reward": 0.9839138984680176,
+    "total_reward": 0.6329029202461243
+  }
+]

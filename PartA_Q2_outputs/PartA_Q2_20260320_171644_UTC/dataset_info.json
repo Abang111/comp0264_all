@@ -1,0 +1,14 @@
+{
+  "csv_path": "/workspace/tbx/yoda_sentences/sentences.csv",
+  "available_splits": [
+    "train"
+  ],
+  "source_column": "sentence",
+  "target_column": "translation",
+  "train_size": 500,
+  "val_size": 200,
+  "example_preview": {
+    "english": "He wrote down a long list of items.",
+    "yoda_target": "A long list of items, down he wrote."
+  }
+}

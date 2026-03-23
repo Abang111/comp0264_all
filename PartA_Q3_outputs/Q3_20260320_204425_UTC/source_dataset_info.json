@@ -1,0 +1,14 @@
+{
+  "dataset_hf_id": "sentence-transformers/natural-questions",
+  "config": "pair",
+  "split_used": "train",
+  "loaded_from": "local_parquet_offline",
+  "local_parquet": "/workspace/tbx/natural-questions/pair/train-00000-of-00001.parquet",
+  "num_rows_in_split": 100231,
+  "columns": [
+    "query",
+    "answer"
+  ],
+  "inferred_question_col": "query",
+  "inferred_answer_col": "answer"
+}

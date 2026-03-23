@@ -1,0 +1,27 @@
+{
+  "base_model_path": "/workspace/tbx/Llama-3.2-3B-Instruct/",
+  "adapter_path": "./PartA_Q2_outputs/Q2_20260321_234822_UTC/adapter",
+  "q2_search_roots": [
+    "./PartA_Q2_outputs",
+    "./Q2_records",
+    "/workspace/tbx/PartA_Q2_outputs",
+    "/workspace/tbx/Q2_records"
+  ],
+  "hf_dataset": "sentence-transformers/natural-questions",
+  "hf_config": "pair",
+  "hf_split": "train",
+  "loaded_from": "local_parquet_offline",
+  "local_parquet": "/workspace/tbx/natural-questions/pair/train-00000-of-00001.parquet",
+  "seed": 42,
+  "subset_sizes": {
+    "train": 500,
+    "val": 200,
+    "test": 500
+  },
+  "generation": {
+    "batch_size": 4,
+    "max_new_tokens": 128,
+    "temperature": 0.0
+  },
+  "notes": "Q3: translate source QA answers into Yoda style using latest Q2 translator adapter (offline parquet load)."
+}

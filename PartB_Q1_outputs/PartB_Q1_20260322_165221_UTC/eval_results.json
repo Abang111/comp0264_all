@@ -1,0 +1,17 @@
+{
+  "test_accuracy": 0.953,
+  "full_test_metrics": {
+    "eval_loss": 0.668159544467926,
+    "eval_accuracy": 0.953,
+    "eval_runtime": 1.7937,
+    "eval_samples_per_second": 557.498,
+    "eval_steps_per_second": 6.132,
+    "epoch": 6.0
+  },
+  "dataset_sizes": {
+    "balanced_train_source_total": 1000,
+    "train_split": 800,
+    "val_split": 200,
+    "balanced_test_total": 1000
+  }
+}

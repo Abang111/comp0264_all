@@ -1,0 +1,25 @@
+{
+  "num_rows": 720,
+  "columns": [
+    "sentence",
+    "translation",
+    "translation_extra"
+  ],
+  "head_preview": [
+    {
+      "sentence": "The birch canoe slid on the smooth planks.",
+      "translation": "On the smooth planks, the birch canoe slid.",
+      "translation_extra": "On the smooth planks, the birch canoe slid. Yes, hrrrm."
+    },
+    {
+      "sentence": "Glue the sheet to the dark blue background.",
+      "translation": "Glue the sheet to the dark blue background, you must.",
+      "translation_extra": "Glue the sheet to the dark blue background, you must."
+    },
+    {
+      "sentence": "It's easy to tell the depth of a well.",
+      "translation": "Easy it is, to tell the depth of a well.",
+      "translation_extra": "Easy it is, to tell the depth of a well."
+    }
+  ]
+}

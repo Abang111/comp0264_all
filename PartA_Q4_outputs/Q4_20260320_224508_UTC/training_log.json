@@ -1,0 +1,12 @@
+{
+  "train_log": [
+    {
+      "step": 10,
+      "loss": 3.4498729705810547
+    }
+  ],
+  "eval_log": [],
+  "final_train_loss": 3.1595141092936196,
+  "final_val_loss": null,
+  "best_val_loss": null
+}

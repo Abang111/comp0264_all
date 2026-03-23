@@ -1,0 +1,16 @@
+{
+  "model_path": "/workspace/tbx/Llama-3.2-3B-Instruct/",
+  "csv_path": "/workspace/tbx/yoda_sentences/sentences.csv",
+  "seed": 42,
+  "max_length": 256,
+  "epochs": 3,
+  "lr": 0.0002,
+  "batch_size": 4,
+  "grad_accum": 1,
+  "logging_steps": 10,
+  "eval_steps": 50,
+  "warmup_steps": 30,
+  "demo_mode": "hard",
+  "demo_n": 15,
+  "notes": "Q2 LoRA SFT for Yoda translation; prompt masking; explicit deliverable display; SFTTrainer version for trl 0.15.0."
+}

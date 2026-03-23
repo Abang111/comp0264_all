@@ -1,0 +1,106 @@
+{
+  "best_global_step": null,
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 63,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "completion_length": 128.0,
+      "epoch": 0.16,
+      "grad_norm": 0.674913227558136,
+      "kl": 0.0005114817220601253,
+      "learning_rate": 4.576271186440678e-06,
+      "loss": 2.0738504827022552e-05,
+      "reward": 0.38324977904558183,
+      "reward_std": 0.044484455790370706,
+      "rewards/grpo_reward_fn_logged": 0.38324977904558183,
+      "step": 10
+    },
+    {
+      "completion_length": 128.0,
+      "epoch": 0.32,
+      "grad_norm": 0.7545661926269531,
+      "kl": 0.0020024678233312443,
+      "learning_rate": 3.7288135593220342e-06,
+      "loss": 8.032256737351417e-05,
+      "reward": 0.3734020546078682,
+      "reward_std": 0.03629488786682487,
+      "rewards/grpo_reward_fn_logged": 0.3734020546078682,
+      "step": 20
+    },
+    {
+      "completion_length": 128.0,
+      "epoch": 0.48,
+      "grad_norm": 0.7261124849319458,
+      "kl": 0.0033436103025451303,
+      "learning_rate": 2.8813559322033903e-06,
+      "loss": 0.0001335791777819395,
+      "reward": 0.37006425857543945,
+      "reward_std": 0.04887657389044762,
+      "rewards/grpo_reward_fn_logged": 0.37006425857543945,
+      "step": 30
+    },
+    {
+      "completion_length": 128.0,
+      "epoch": 0.64,
+      "grad_norm": 0.7029555439949036,
+      "kl": 0.004064347071107477,
+      "learning_rate": 2.033898305084746e-06,
+      "loss": 0.00016233760397881268,
+      "reward": 0.376603464782238,
+      "reward_std": 0.04301692652516067,
+      "rewards/grpo_reward_fn_logged": 0.376603464782238,
+      "step": 40
+    },
+    {
+      "completion_length": 128.0,
+      "epoch": 0.8,
+      "grad_norm": 0.7102437019348145,
+      "kl": 0.004132839303929358,
+      "learning_rate": 1.186440677966102e-06,
+      "loss": 0.0001656417385675013,
+      "reward": 0.36208694726228713,
+      "reward_std": 0.041888880915939807,
+      "rewards/grpo_reward_fn_logged": 0.36208694726228713,
+      "step": 50
+    },
+    {
+      "completion_length": 128.0,
+      "epoch": 0.96,
+      "grad_norm": 0.6382948160171509,
+      "kl": 0.005277963262051344,
+      "learning_rate": 3.3898305084745766e-07,
+      "loss": 0.00021107709035277366,
+      "reward": 0.3609784670174122,
+      "reward_std": 0.05051459278911352,
+      "rewards/grpo_reward_fn_logged": 0.3609784670174122,
+      "step": 60
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 63,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

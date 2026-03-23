@@ -1,0 +1,8 @@
+{
+  "train_size": 648,
+  "val_size": 72,
+  "use_fixed_split": false,
+  "train_ratio": 0.9,
+  "train_size_fixed": 500,
+  "val_size_fixed": 200
+}

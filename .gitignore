@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+venv/
+.venv/
+env/
+conda_env/
+conda_envs/
+
+.DS_Store
+.idea/
+.vscode/
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# runtime/cache
+cache/
+logs/
+tmp/
+temp/
+
+# optional: outputs you don't want versioned
+# outputs/
+# checkpoints/
+*.bak
+*.bak

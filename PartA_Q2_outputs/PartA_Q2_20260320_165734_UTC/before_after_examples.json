@@ -1,0 +1,20 @@
+[
+  {
+    "english": "He wrote down a long list of items.",
+    "target": "A long list of items, down he wrote.",
+    "before": "\"A long list of items, he wrote down, he did.\"",
+    "after": "A long list of items, he wrote down."
+  },
+  {
+    "english": "The duke left the park in a silver coach.",
+    "target": "Left the park in a silver coach, the duke did.",
+    "before": "\"A silver coach, the duke left in, he did.\"",
+    "after": "In a silver coach, the duke left the park, he did."
+  },
+  {
+    "english": "A siege will crack the strong defense.",
+    "target": "Crack the strong defense, a siege will.",
+    "before": "\"A siege, the strong defense will crack.\"",
+    "after": "Crack the strong defense, a siege will."
+  }
+]

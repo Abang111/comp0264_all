@@ -1,0 +1,15 @@
+{
+  "train_csv": "./Datasets_3b_processed/yoda_train.csv",
+  "test_csv": "./Datasets_3b_processed/yoda_test.csv",
+  "base_model_name": "distilbert-base-uncased",
+  "seed": 42,
+  "max_length": 128,
+  "num_epochs": 6,
+  "train_batch_size": 16,
+  "eval_batch_size": 16,
+  "logging_steps": 10,
+  "label_definition": {
+    "0": "standard English",
+    "1": "Yoda-style English"
+  }
+}

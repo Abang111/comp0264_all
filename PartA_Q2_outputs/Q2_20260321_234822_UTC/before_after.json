@@ -1,0 +1,126 @@
+{
+  "before": [
+    {
+      "english": "Although I was tired after work, I still went to the gym because I promised myself I would stay consistent.",
+      "yoda": "\"A tired, I was, after work, but to the gym, I went, I did, a promise to myself, keep, I must.\""
+    },
+    {
+      "english": "If you finish the report by Friday, we can submit it early and avoid last-minute mistakes.",
+      "yoda": "\"Early submit, we can, if by Friday finished, the report, you are.\""
+    },
+    {
+      "english": "When I realized the meeting was cancelled, I used the extra time to review the paper and take notes.",
+      "yoda": "\"A meeting cancelled, it was. Review the paper and notes, I did.\""
+    },
+    {
+      "english": "I don't think this approach will work, but I'm willing to try it if you can explain the reasoning clearly.",
+      "yoda": "\"A try, I will, if clear, the reasoning is.\""
+    },
+    {
+      "english": "This method is not only faster, but it is also more reliable in noisy environments.",
+      "yoda": "\"Faster and more reliable, this method is, in noisy environments, it proves.\""
+    },
+    {
+      "english": "Because the dataset is imbalanced, the model tends to predict the majority class unless we use reweighting.",
+      "yoda": "\"A balanced dataset, we must have, or the model to the majority class, it will predict, unless reweighting, we use.\""
+    },
+    {
+      "english": "The experiment failed twice, so we changed the learning rate and reduced the batch size.",
+      "yoda": "\"Failed, the experiment did, twice, it did. Changed, the learning rate and batch size, we did.\""
+    },
+    {
+      "english": "The training took 3 hours and 25 minutes, and the best validation loss was 0.47 at step 450.",
+      "yoda": "\"A long time, three hours and twenty-five minutes, the training took, it did. Best validation loss, 0.47, at step 450, achieved, it was.\""
+    },
+    {
+      "english": "Please remind me to call my supervisor at 10:30 tomorrow morning and send the updated slides.",
+      "yoda": "\"Tomorrow morning, 10:30, call your supervisor, you must. Updated slides, send, you must.\""
+    },
+    {
+      "english": "She said, 'I will never give up,' even when everything seemed impossible.",
+      "yoda": "\"A never give up, I will, even impossible, everything seems.\""
+    },
+    {
+      "english": "Honestly, I'm frustrated right now, but I know I can improve if I keep practicing.",
+      "yoda": "\"Frustrated, I am, now. Improve, I can, with practice, I will.\""
+    },
+    {
+      "english": "Summarize the key differences between supervised fine-tuning and reinforcement learning in two sentences.",
+      "yoda": "\"A path to improvement, supervised fine-tuning is, by labeled data, guided it is. Reinforcement learning, trial and error, through rewards and penalties, it learns.\""
+    },
+    {
+      "english": "Explain why setting a padding token is necessary when we use padding='max_length' during tokenization.",
+      "yoda": "\"A necessary step, setting a padding token is, when max_length used, we do. To ensure equal lengths, it does, for all sequences, a balance, it brings.\""
+    },
+    {
+      "english": "The results look promising; however, we should double-check the evaluation protocol before drawing conclusions.",
+      "yoda": "\"A promising, the results look; double-check the evaluation protocol, we must, before conclusions drawn, we can.\""
+    },
+    {
+      "english": "Not until I read the documentation carefully did I understand why the training kept crashing.",
+      "yoda": "\"A careful reading of the documentation, I did not take, until crashing, the training did.\""
+    }
+  ],
+  "after": [
+    {
+      "english": "Although I was tired after work, I still went to the gym because I promised myself I would stay consistent.",
+      "yoda": "To the gym, I still went because I promised myself I would stay consistent, although tired after work, I was."
+    },
+    {
+      "english": "If you finish the report by Friday, we can submit it early and avoid last-minute mistakes.",
+      "yoda": "Finish the report by Friday, you must, and early submit it we can, and last-minute mistakes avoid."
+    },
+    {
+      "english": "When I realized the meeting was cancelled, I used the extra time to review the paper and take notes.",
+      "yoda": "The extra time to review the paper and take notes, I used when the meeting was cancelled."
+    },
+    {
+      "english": "I don't think this approach will work, but I'm willing to try it if you can explain the reasoning clearly.",
+      "yoda": "Will work, this approach, I don't think, but try it, I am willing, if explain the reasoning clearly, you can."
+    },
+    {
+      "english": "This method is not only faster, but it is also more reliable in noisy environments.",
+      "yoda": "Faster, this method is, and more reliable in noisy environments, it is."
+    },
+    {
+      "english": "Because the dataset is imbalanced, the model tends to predict the majority class unless we use reweighting.",
+      "yoda": "Tends to predict the majority class, the model does, unless reweighting we use."
+    },
+    {
+      "english": "The experiment failed twice, so we changed the learning rate and reduced the batch size.",
+      "yoda": "Failed twice, the experiment did, so the learning rate and batch size, we changed and reduced."
+    },
+    {
+      "english": "The training took 3 hours and 25 minutes, and the best validation loss was 0.47 at step 450.",
+      "yoda": "3 hours and 25 minutes, the training took, and at step 450, the best validation loss 0.47 was."
+    },
+    {
+      "english": "Please remind me to call my supervisor at 10:30 tomorrow morning and send the updated slides.",
+      "yoda": "To call my supervisor at 10:30 tomorrow morning, please remind me, and send the updated slides, you must."
+    },
+    {
+      "english": "She said, 'I will never give up,' even when everything seemed impossible.",
+      "yoda": "Even when everything seemed impossible, 'I will never give up,' she said."
+    },
+    {
+      "english": "Honestly, I'm frustrated right now, but I know I can improve if I keep practicing.",
+      "yoda": "Frustrated right now, I am, but improve if practicing I keep, I know."
+    },
+    {
+      "english": "Summarize the key differences between supervised fine-tuning and reinforcement learning in two sentences.",
+      "yoda": "Between supervised fine-tuning and reinforcement learning, key differences summarize, in two sentences, you must."
+    },
+    {
+      "english": "Explain why setting a padding token is necessary when we use padding='max_length' during tokenization.",
+      "yoda": "Necessary when we use padding='max_length' during tokenization, setting a padding token is."
+    },
+    {
+      "english": "The results look promising; however, we should double-check the evaluation protocol before drawing conclusions.",
+      "yoda": "Promising, the results look; however, double-check the evaluation protocol, we should before conclusions, drawing."
+    },
+    {
+      "english": "Not until I read the documentation carefully did I understand why the training kept crashing.",
+      "yoda": "Until I read the documentation carefully, why the training kept crashing, I did not understand."
+    }
+  ]
+}

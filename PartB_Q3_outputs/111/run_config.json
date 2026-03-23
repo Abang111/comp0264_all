@@ -1,0 +1,14 @@
+{
+  "train_csv": "./Datasets_3b_processed/yoda_train.csv",
+  "val_csv": "./Datasets_3b_processed/yoda_val.csv",
+  "output_dir": "./PartB_Q3_outputs/PartB_Q3_20260322_193627_UTC",
+  "final_model_dir": "./PartB_Q3_outputs/PartB_Q3_20260322_193627_UTC/final_model",
+  "base_model_path": "/workspace/tbx/Llama-3.2-3B-Instruct/",
+  "adapter_dir": "PartA_Q4_outputs/Q4_20260321_232740_UTC/adapter",
+  "training_algorithm": "GRPO",
+  "reward_used": [
+    "correctness",
+    "format"
+  ],
+  "style_reward_used": false
+}

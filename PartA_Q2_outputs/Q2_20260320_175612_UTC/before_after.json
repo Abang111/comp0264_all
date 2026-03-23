@@ -1,0 +1,30 @@
+{
+  "before": [
+    {
+      "english": "Although I was tired after work, I still went to the gym because I promised myself I would stay consistent.",
+      "yoda": "\"A tired, I was, after work, but to the gym, I went, I did, a promise to myself, keep, I must.\""
+    },
+    {
+      "english": "If you finish the report by Friday, we can submit it early and avoid last-minute mistakes.",
+      "yoda": "\"Early submit, we can, if by Friday finished, the report, you are.\""
+    },
+    {
+      "english": "The results look promising; however, we should double-check the evaluation protocol before drawing conclusions.",
+      "yoda": "\"A promising, the results look; double-check the evaluation protocol, we must, before conclusions drawn, we can.\""
+    }
+  ],
+  "after": [
+    {
+      "english": "Although I was tired after work, I still went to the gym because I promised myself I would stay consistent.",
+      "yoda": "To the gym because I promised myself I would stay consistent, I still went, although tired after work, I was."
+    },
+    {
+      "english": "If you finish the report by Friday, we can submit it early and avoid last-minute mistakes.",
+      "yoda": "By Friday, the report finish, you must, and early submit it, we can. Avoid last-minute mistakes, we will."
+    },
+    {
+      "english": "The results look promising; however, we should double-check the evaluation protocol before drawing conclusions.",
+      "yoda": "Promising, the results look; however, double-check the evaluation protocol, we should, before conclusions drawn, we must."
+    }
+  ]
+}

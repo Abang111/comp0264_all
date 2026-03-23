@@ -1,0 +1,14 @@
+{
+  "style_model_path": "PartB_Q1_outputs/PartB_Q1_20260321_030806_UTC/classifier",
+  "semantic_model_name": "all-MiniLM-L6-v2",
+  "weights": {
+    "correctness": 0.4,
+    "format": 0.2,
+    "style": 0.4
+  },
+  "reward_definition": {
+    "correctness": "Task-dependent verification: numeric match for math, option match for MCQ, semantic similarity for Yoda task.",
+    "format": "Rule-based reward for printable text, sentence capitalisation, and ending punctuation.",
+    "style": "Classifier-based Yoda-style probability from Part B Q1 reward model."
+  }
+}

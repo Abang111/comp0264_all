@@ -1,0 +1,21 @@
+{
+  "coursework_part": "Part A",
+  "question": "Q2",
+  "question_title": "Training to Translate",
+  "model_path": "/workspace/tbx/Llama-3.2-3B-Instruct/",
+  "dataset_name": "dvgodoy/yoda_sentences",
+  "seed": 42,
+  "max_seq_length": 256,
+  "train_size": 500,
+  "val_size": 200,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": 4,
+  "gradient_accumulation_steps": 1,
+  "logging_steps": 10,
+  "warmup_steps": 30,
+  "deliverable": [
+    "Plot showing Training Loss vs. Steps",
+    "Three examples of responses before and after SFT"
+  ]
+}
